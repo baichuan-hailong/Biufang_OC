@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BFBiuNumbersCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="86"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTX-UB-8IY">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6V-sf-8KY">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="tintColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="S6V-sf-8KY" firstAttribute="leading" secondItem="sTX-UB-8IY" secondAttribute="leading" id="Dwg-RA-QKB"/>
+                            <constraint firstItem="S6V-sf-8KY" firstAttribute="top" secondItem="sTX-UB-8IY" secondAttribute="top" id="H0q-Wg-Jdk"/>
+                            <constraint firstAttribute="trailing" secondItem="S6V-sf-8KY" secondAttribute="trailing" id="ILS-LT-eyE"/>
+                            <constraint firstAttribute="bottom" secondItem="S6V-sf-8KY" secondAttribute="bottom" id="Mmd-eE-DWk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="sTX-UB-8IY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="15E-Qh-u35"/>
+                <constraint firstAttribute="trailing" secondItem="sTX-UB-8IY" secondAttribute="trailing" id="bxQ-d0-jAb"/>
+                <constraint firstItem="sTX-UB-8IY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dg4-KB-wkB"/>
+                <constraint firstAttribute="bottom" secondItem="sTX-UB-8IY" secondAttribute="bottom" id="lWP-k1-Bxr"/>
+            </constraints>
+            <size key="customSize" width="314" height="86"/>
+            <connections>
+                <outlet property="biuNumberBodyView" destination="sTX-UB-8IY" id="73Y-xg-S3e"/>
+                <outlet property="biuNumberLabel" destination="S6V-sf-8KY" id="6uy-SF-pNn"/>
+            </connections>
+            <point key="canvasLocation" x="-31" y="8"/>
+        </collectionViewCell>
+    </objects>
+</document>

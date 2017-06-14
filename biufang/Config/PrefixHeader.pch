@@ -1,0 +1,74 @@
+//
+//  PrefixHeader.pch
+//  biufang
+//
+//  Created by 娄耀文 on 16/9/28.
+//  Copyright © 2016年 biufang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Define.h"
+#import "BFBaseViewController.h"
+
+//third_Party ......
+#import "AFNetworking.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "AMProgressView.h"
+#import "BFPriceTagView.h"
+#import "UIScrollView+EmptyDataSet.h" //tableView 空视图
+
+#import "UILabel+autoSize.h"
+#import "NSDate+MJ.h"
+#import "UIColor+Util.h"
+#import "NSArray+Util.h"
+#import "UIApplication+ActivityViewController.h"
+#import "myToolsClass.h"
+#import "YCXMenu.h"
+#import "GpsManager.h"
+#import "ZYBannerView.h"
+
+#import "UIImage+Image.h"
+//hailong
+#import "GCD.h"
+#import "BFAFNManage.h"
+#import <AlipaySDK/AlipaySDK.h>
+#import "BFRegularManage.h"
+#import "AliyunOSSManager.h"
+#import "UILogRegViewController.h"
+#import "AliPayManager.h"
+
+#import <UMMobClick/MobClick.h>
+#import <UMMobClick/MobClickSocialAnalytics.h>
+
+#import "BFEmptyView.h"
+#import "BFWinningView.h"
+#import "BFNewUserBigRedEnvelope.h"
+#import "BFNotificationPopView.h"
+#import "BFEvaluationView.h"
+#import "CheckStrongUpdateManage.h"
+#import "BFNoNetView.h"
+
+#import "ShareManager.h"
+#import "BFShareView.h"
+//UM
+#import "UMManager.h"
+
+#import "UMSocial.h"
+#import "UMSocialWechatHandler.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialSinaSSOHandler.h"
+
+#import "WXApi.h"
+#import "WXApiManager.h"
+#import "DeviceInfoManage.h"
+#import "CheckNetManage.h"
+#import "CheckTokenManage.h"
+#import "CheckPopingNotificationPop.h"
+
+#import "WeiboSDK.h"
+
+#endif /* PrefixHeader_pch */
